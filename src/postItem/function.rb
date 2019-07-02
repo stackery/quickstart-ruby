@@ -7,8 +7,8 @@ def handler(event:, context:)
   params = {
     table_name: table_name,
     item: {
-      "id" => "5", # modify with each invoke so the id does not repeat
-      "content" => "So much content" # modify content here
+      "id" => "1", # modify with each invoke so the id does not repeat
+      "content" => "This is my content" # modify content here
     }, 
     return_consumed_capacity: "TOTAL",
     condition_expression: "attribute_not_exists(id)" # do not overwrite existing entries

@@ -15,7 +15,7 @@ def handler(event:, context:)
   }
 
   begin
-    # Write a new item to the ItemTable
+    # Write a new item to the Item table
     dynamodb.put_item(params)
     item_id = params[:item]["id"]
     puts "Writing item #{item_id} to table #{table_name}."

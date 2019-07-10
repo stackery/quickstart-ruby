@@ -5,7 +5,7 @@ def handler(event:, context:)
   table_name = ENV["TABLE_NAME"] # get the table name from the automatically populated environment variables
 
   begin
-    # Use dynamodb to get items from the ItemTable
+    # Use dynamodb to get items from the Item table
     result = dynamodb.scan({
       table_name: table_name, 
     })

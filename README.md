@@ -25,7 +25,7 @@ Here is an overview of the files:
 │   │   ├── function.rb           <-- Lambda function code
 │   │   ├── Gemfile               <-- Ruby dependencies
 │   │   └── .stackery-config.yaml <-- Stackery function configuration file
-│   ├── postItem                  <-- Source code dir for postItem function
+│   ├── newItem                   <-- Source code dir for newItem function
 │   │   ├── README.md             <-- Function-specific README
 │   │   ├── function.rb           <-- Lambda function code
 │   │   ├── Gemfile               <-- Ruby dependencies
